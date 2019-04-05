@@ -1,0 +1,66 @@
+/*
+* Jennifer Cardamone
+* April 9, 2019
+* Padua Panda Travel Agency
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body { 
+    /* The font, spacing, and background of the webpage */
+    width: 90%;
+    margin: auto;
+    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif; }
+
+
+#beach { 
+        /* Properties of the beach image */
+        float: left;
+        height: 300px; width: 400px; }
+
+#What_to_Do { clear: both; }
+
+h1 {
+    /* Color of text and background */
+    background-color: lightpink; 
+    color: white; }
+h3 { 
+    /* Color of text */
+    color: navy; }
+
+#food {
+        /* Properties of the food image */
+        float: right;
+        height: 200px; width: 300px; }
+
+/* The table properties */
+table, td, th { border: 1px solid black; } 
+table { border-collapse: collapse; }
+
+/* The background and text color of the head */
+thead { background-color: lightpink; 
+        color: white; }
+
+/* The background and text color of the body */
+tbody { background-color: floralwhite; 
+        color: navy;}
+
+/* The background color of the foot */
+tfoot { background-color: floralwhite; }
+
+#park {
+        /* Properties of the park image */
+        height: 200px; width: 400px; }
+
+#islands { clear: both; }
+
+#bird {
+        /* Properties of the bird image */
+        height: 200px; width: 400px; }
